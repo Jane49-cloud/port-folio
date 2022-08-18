@@ -1,4 +1,5 @@
 import React from "react";
+import { skills } from "./data";
 import profile from './profile.jpeg'
 
 const HomeBody = ()=>{
@@ -20,18 +21,16 @@ const HomeBody = ()=>{
             <div><h1>Skills
                 </h1></div>
              <div className="list">
-             <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SASS</li>
-            <li>BootStrap</li>
-            <li>Javascript</li>
-            <li>ReactJs</li>
-            <li>Python</li>
-            <li>Django</li>
-            <li>MongoDb</li>
-            <li>SQL</li>
-            <li>Java</li>
-            <li>NodeJs</li>
+
+                {
+                    skills.map((skill,index)=>{
+                        const{name, icon,color}= skill
+                        return <li key={index}  style={{color: `${color}`}}>
+                            {icon}                         
+                            <p className="name"> {name}</p>
+                        </li>
+                    })
+                }
             
                              </div>
         </div>
