@@ -1,3 +1,6 @@
+import ecommerce from './images/pic.jpg'
+
+
 import { 
     FaHtml5, 
     FaCss3Alt, 
@@ -70,4 +73,43 @@ export const skills =[
        name:'Node',
        color:"green"
    }
+]
+
+
+export const projectsNames = [
+   
+    {
+        "name": "Ecommerce Website",
+        "image": ecommerce,
+         "url": "#",
+         "github":"#",
+         'description':" about about about about about about about v about about vaboutabout vaboutabout",
+         "id": 1
+    },
+    {
+        "name": "Ecommerce Website",
+        "image": ecommerce,
+         "url": "#",
+         "github":"#",
+         'description':" about about about about about about about v about about vaboutabout vaboutabout",
+         "id": 2
+    },
+    {
+        "name": "Ecommerce Website",
+        "image": ecommerce,
+         "url": "#",
+         "github":"#",
+         'description':" about about about about about about about v about about vaboutabout vaboutabout",
+         "id": 3
+    },
+    {
+        "name": "Ecommerce Website",
+        "image": ecommerce,
+         "url": "#",
+         "github":"#",
+         'description':" about about about about about about about v about about vaboutabout vaboutabout",
+         "id": 4
+    },
+    
+
 ]

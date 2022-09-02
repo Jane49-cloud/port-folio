@@ -4,7 +4,7 @@ import profile from './profile.jpeg'
 
 const HomeBody = ()=>{
     return<>
-    <section>
+    <section className="section-one">
         <div className="profile">
         <div className="img">
         <img src={profile} alt=""  className="person-img"/>
