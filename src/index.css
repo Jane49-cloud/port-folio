@@ -224,7 +224,9 @@ header{
   background-color: white;
   height: 60px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 a {
   color: black;
