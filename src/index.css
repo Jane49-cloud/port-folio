@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: hsl(209, 45%, 10%);
+  background-color: #003870;
    text-align: center;
 }
 
@@ -258,7 +258,7 @@ section {
 }
 
 .profile{
-  background:hsl(205, 77%, 17%);
+  background:#e9f1f8;
   padding: 1.5rem 2rem;
   border-radius: 0.25rem;
   box-shadow: whitesmoke;
@@ -267,17 +267,17 @@ section {
   width:50%;
   margin-bottom: 20px;
   margin-top: 10px;
-  box-shadow: 0 5px 15px #36CCFF;
+  box-shadow: 0 5px 15px hsl(192, 14%, 93%);
 }
 @media screen and (max-width: 500px) {
   .profile {
-    width: 75%;
+    width: 90%;
   }
 }
 
 .profile:hover {
   box-shadow: 0 5px 15px white;
-  background-color: hsl(205, 72%, 37%);
+  background-color:var(--clr-white);
 }
 .img{
   position: relative;
